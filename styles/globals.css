@@ -40,3 +40,185 @@ a {
     color-scheme: dark;
   }
 }
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: cornsilk;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-form input,
+.task-form select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn-add {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-add:hover {
+  background-color: #0056b3;
+}
+
+.btn-sort {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-sort:hover {
+  background-color: #218838;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-card {
+  background-color: #2221219c;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-5px);
+}
+
+.completed-task {
+  background-color: #e0e0e0;
+  color: #6c757d;
+}
+
+.priority {
+  margin: 10px 0;
+}
+
+.high {
+  border-left: 5px solid red;
+}
+
+.medium {
+  border-left: 5px solid yellow;
+}
+
+.low {
+  border-left: 5px solid green;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.pending {
+  color: #777070;
+}
+
+.btn-toggle,
+.btn-edit,
+.btn-delete {
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-toggle {
+  background-color: #17a2b8;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.btn-toggle:hover {
+  background-color: #138496;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.btn-edit:hover {
+  background-color: #e0a800;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+.no-tasks {
+  text-align: center;
+  color: gray;
+  font-style: italic;
+  margin: 20px 0;
+}
+
+.status {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.pending-status {
+  background-color: #ffc107;
+  color: black;
+}
+
+.completed-status {
+  background-color: #28a745;
+  color: white;
+}
