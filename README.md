@@ -93,15 +93,3 @@ In the code, we define a helper function to ensure that tasks are sorted by prio
    ┣ 📂 styles/ # CSS files for styling
    ┣ 📜 package.json # Dependencies and scripts
    ┗ 📜 README.md # Project documentation
-
-
-## Stats
-
-<!-- BADGES:START -->
-<!-- BADGES:END -->
-
-
-## Changelog
-
-<!-- CHANGELOG:START -->
-<!-- CHANGELOG:END -->
